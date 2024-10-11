@@ -10,6 +10,7 @@ import { Footer } from "@/components/Footer";
 import Pricing from "@/components/Pricing";
 import React from "react";
 import { UsesCases } from "@/components/UsesCases";
+import { Testimonials } from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <LogoTicker />
       <Features />
       <ProductShowcase />
+      <Testimonials />
       <UsesCases />
       <Pricing />
       <FAQs />
